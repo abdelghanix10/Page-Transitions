@@ -19,7 +19,11 @@ export const metadata = {
   description: "Clip-Mask Page Transition | Codegrid",
 };
 
-export default function RootLayout({ children }) {
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
   return (
     <html
       lang="en"
